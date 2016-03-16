@@ -23,6 +23,10 @@
 ------------------------------------------*/
 
   body {
+    color      :  #212121;
+    font-family: 'Lato', sans-serif;
+    font-size  :  16px;
+    line-height:  1.5;
 
   }
 
@@ -30,12 +34,14 @@
 
   }
 
-  ol {
+  ol, ul {
+    margin         : 0;
+    padding        : 0;
     list-style-type: none;
   }
 
   a {
-
+     color          : #ff4081;
   }
 
   p {
@@ -75,9 +81,17 @@
   }
 
   .news-link {
-    color: #3f51b5;
-    font-size: 18px;
-  }
+    color        : #3f51b5;
+    display      : block;
+    font-size    : 18px;
+    margin-bottom: 10px;
+   }
+
+  a:active {color: #303f9f;}
+  a:hover  {color: #303f9f;}
+  a:focus  {color: #303f9f;}
+
+
 
 /*-----------------------------------------
  *     Container
@@ -86,4 +100,11 @@
   .container {
     margin: 0 auto;
     max-width: 800px;
+  }
+
+  .news-meta-item {
+  display     : inline;
+  margin-right: 15px;
+    :hover     #b6b6b6;
+
   }
