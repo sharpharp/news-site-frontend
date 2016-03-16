@@ -3,8 +3,10 @@
 *           Front-end News! Stylesheet
 *
 *
-*            R:64, G: 84, B: 178;
-*            Indigo       : #3f51b5;
+*
+
+              R:64, G: 84, B: 178;
+            Indigo       : #3f51b5;
              Indigo (dark): #303f9f;
              Light blue   : #c5cae9;
              Pink         : #ff4081;
@@ -42,4 +44,25 @@
 
   p {
 
+  }
+
+  /*-----------------------------------------
+  *     Hero
+  ------------------------------------------*/
+
+  .hero {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+/*-----------------------------------------
+*    Logo
+------------------------------------------*/
+
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
   }
