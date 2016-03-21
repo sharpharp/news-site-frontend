@@ -4,9 +4,9 @@
 *
 *
 *
-
+*
               R:64, G: 84, B: 178;
-            Indigo       : #3f51b5;
+             Indigo       : #3f51b5;
              Indigo (dark): #303f9f;
              Light blue   : #c5cae9;
              Pink         : #ff4081;
@@ -25,7 +25,7 @@
   body {
     color      :  #212121;
     font-family: 'Lato', sans-serif;
-    font-size  :  16px;
+    font-size: 16px;
     line-height:  1.5;
 
   }
@@ -103,8 +103,26 @@
   }
 
   .news-meta-item {
-  display     : inline;
+  display: inline;
   margin-right: 15px;
-    :hover     #b6b6b6;
+  }
 
+/*-----------------------------------------
+ *     States
+  ------------------------------------------*/
+  .is-liked {
+    animation: flash 2s;
+  }
+
+/*-----------------------------------------
+ *     Animation
+  ------------------------------------------*/
+
+  @keyframes flash {
+    from, 50%, to {
+      opacity: 0;
+    }
+    25%, 75% {
+      opacity: 1;
+    }
   }
